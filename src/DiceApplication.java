@@ -24,17 +24,17 @@ public class DiceApplication extends javax.swing.JFrame {
 
         Label1.setFont(new java.awt.Font("Arial", 0, 20)); // NOI18N
         Label1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Label1.setText(" به Dice Roller خوش آمدید");
+        Label1.setText("Welcome to Dice Roller");
         Label1.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(255, 0, 0)));
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/1.jpg"))); // NOI18N
         jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        Label2.setFont(new java.awt.Font("2  Titr", 1, 18)); // NOI18N
+        Label2.setFont(new java.awt.Font("Arial", 0, 16)); // NOI18N
         Label2.setForeground(new java.awt.Color(255, 0, 0));
         Label2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Label2.setText("تعداد وجه تاس را در کادر زیر وارد کنید");
+        Label2.setText("Enter your dice number in the box");
         Label2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 255, 204), new java.awt.Color(0, 255, 204), new java.awt.Color(0, 255, 204), new java.awt.Color(0, 255, 204)));
         Label2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
